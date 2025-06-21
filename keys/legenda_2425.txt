@@ -1,0 +1,490 @@
+Te: indica una statistica di squadra (dal temine inglese “Team”);
+Opp: indica una statistica avversaria (dal termine inglese “Opponent”);
+Lg: indica una statistica di lega (dal termine inglese “League”);
+Nessun prefisso: indica una statistica individuale;
+
+Se si sta utilizzando il valore medio “a partita” si può trovare il suffisso “/G” o “PG”(dal termine inglese “Per Game”).
+
+GP
+PARTITE GIOCATE
+Termine inglese: Game Played
+La somma delle partite giocate dalla squadra o dal giocatore.
+
+GS
+PARTITE INIZIATE
+Termine inglese: Game Started
+La somma delle partite giocate in quintetto base dal giocatore.
+
+MP; Min
+MINUTI GIOCATI
+Termine inglese: minutes played
+La somma dei minuti giocati dalla squadra o dal giocatore.
+
+W/L
+VINTE – PERSE
+Termine inglese: Win – Loss
+Il conteggio delle partite vinte e perse dalla squadra o dal giocatore.
+
+W%
+PERCENTUALE DI VITTORIA
+Termine inglese: Winning Percentage
+La percentuale di partite vinte dalla squadra o dal giocatore.
+
+2PA; 2FGA
+TIRI DA 2 PUNTI TENTATI
+Termine inglese: Two Point Attempted; Two Point Field Goals Attempted
+La somma dei tiri da 2 punti tentati.
+
+2PM; 2FGM
+TIRI DA 2 PUNTI REALIZZATI
+Termine inglese: Two Point Made; Two Point Field Goals Made
+La somma dei tiri da 2 punti realizzati.
+
+2P%; 2FG%
+PERCENTUALE DA 2 PUNTI
+Termine inglese: Two Point Percentage; Two Point Field Goals Percentage
+La percentuale di realizzazione dei tiri da 2 punti.
+
+%2P; 2FG FREQ
+FREQUENZA DI TIRO DA 2 PUNTI
+Termine inglese: Two Point Frequency; Two Point Field Goals Frequency
+La percentuale dei tiri da 2 punti presi rispetto alla somma di tutti i tiri dal campo.
+
+3PA
+TIRI DA 3 PUNTI TENTATI
+Termine inglese: Three Point Attempted
+La somma dei tiri da 3 punti tentati.
+
+3PM
+TIRI DA 3 PUNTI REALIZZATI
+Termine inglese: Three Point Made
+La somma dei tiri da 3 punti realizzati.
+
+3P%
+PERCENTUALE DA 3 PUNTI
+Termine inglese: Three Point Percentage
+La percentuale di realizzazione dei tiri da 3 punti.
+
+%3P; 3P FREQ
+FREQUENZA DI TIRO DA 3 PUNTI
+Termine inglese: Three Point Frequency
+La percentuale dei tiri da 3 punti presi rispetto alla somma di tutti i tiri dal campo.
+
+FGA
+TIRI DAL CAMPO TENTATI
+Termine inglese: Field Goals Attempted
+La somma dei tiri dal campo (tiri da 2 e 3 punti) tentati.
+
+FGM
+TIRI DAL CAMPO REALIZZATI
+Termine inglese: Field Goals Made
+La somma dei tiri dal campo (tiri da 2 e 3 punti) realizzati.
+
+FG%
+PERCENTUALE DAL CAMPO
+Termine inglese: Field Goals Percentage
+La percentuale di realizzazione dal campo.
+
+FTA
+TIRI LIBERI TENTATI
+Termine inglese: Free Throws Attempted
+La somma dei tiri liberi tentati.
+
+FTM
+TIRI LIBERI REALIZZATI
+Termine inglese: Free Throws Made
+La somma dei tiri liberi realizzati.
+
+FT%
+PERCENTUALE DEI TIRI LIBERI
+Termine inglese: Free Throws Percentage
+La percentuale di realizzazione dei tiri liberi.
+
+Pts
+PUNTI
+Termine inglese: Points
+La somma dei punti realizzati.
+
+OR; OREB
+RIMBALZI OFFENSIVI
+Termine inglese: Offensive Rebounds
+La somma dei rimbalzi offensivi catturati.
+
+DR; DREB
+RIMBALZI DIFENSIVI
+Termine inglese: Defensive Rebounds
+La somma dei rimbalzi difensivi catturati.
+
+TR; TREB
+RIMBALZI TOTALI
+Termine inglese: Total Rebounds
+La somma dei rimbalzi (offensivi e difensivi) catturati.
+
+AST
+ASSIST
+Termine inglese: Assist
+La somma degli assist distribuiti.
+
+ST; STL
+PALLE RUBATE
+Termine inglese: Steals
+La somma delle palle rubate.
+
+TO; TOV
+PALLE PERSE
+Termine inglese: Turnovers
+La somma delle palle perse.
+
+BLK
+STOPPATE
+Termine inglese: Blocks
+La somma delle stoppate fatte.
+
+BLKA; BA
+STOPPATE SUBITE
+Termine inglese: Blocks against
+La somma delle stoppate subite.
+
+PF
+FALLI FATTI
+Termine inglese: Personal Fouls
+La somma dei falli commessi.
+
+DF; PDF
+FALLI SUBITI
+Termine inglese: Personal Fouls Drawn
+La somma dei falli subiti.
+
+Val; EFF
+VALUTAZIONE
+Termine inglese: Efficiency
+La somma dei contributi positivi (punti, rimbalzi, assist, rimbalzi, palle rubate, stoppate, falli subiti) e negativi (tiri sbagliati, falli fatti, stoppate subite, palle perse) di un giocatore o squadra. Alcuni termini, a seconda delle scelte di valutazione, possono essere considerati o meno.
+
++/-
+PLUS MINUS
+Termine inglese: Plus Minus
+La somma dei punti realizzati e subiti dalla propria squadra mentre il giocatore è in campo. Risulta una statistica molto interessante perché tendenzialmente mostra l’impatto di un giocatore in campo. Può essere negativa nel caso in cui la squadra subisca più punti di quanti ne realizzi.
+
+Poss
+POSSESSO
+Learn a Stat: Possessi e Pace
+
+Termine inglese: Possession
+Il numero di possessi totali giocati durante l’intera partita. Attenzione però, perché il possesso per la statistica non è quello che noi intendiamo. In termini statistici il possesso può concludersi in soli 3 modi:
+
+l’attacco realizza un canestro (che sia esso un tiro dal campo o un tiro libero);
+l’attacco perde il pallone;
+la difesa cattura il rimbalzo difensivo dopo un canestro fallito (che sia esso un tiro dal campo o un tiro libero).
+Il numero di possessi non è fornito nei normali tabellini di gioco: Dean Oliver ha quindi ideato una formula che permette di stimare il numero di possessi.
+
+Poss = FGA – OR + TO + 0.44 * FTA
+
+Dalla definizione e dalle formula si evince che un rimbalzo offensivo non genera un nuovo possesso. Grazie a questa equazione si può trovare una stima del numero di possessi giocati da una squadra. Per ottenere un numero più preciso è consuetudine calcolare i possessi giocati da entrambe le squadre ed effettuare la media tra i due risultati. Il fattore 0,44 stima il numero di viaggi in lunetta (tecnici e and-one esclusi). Nel caso si conoscesse tale valore, si può utilizzare quello, sicuramente più preciso. 
+
+SHOOTING CHANCES; PLAYS
+OCCASIONI DI TIRO
+Termine inglese: Shooting chances, plays
+Il numero di possessi indica il numero di volte che una squadra terminato di avere il possesso del pallone. Ma, come abbiamo appena visto, in un possesso ci possono essere più tiri. Se infatti si volesse identificare quante volte una squadra ha avuto l’opportunità di segnare, si ricorre alle Shooting Chances. 
+
+Shooting Chances = FGA + TO + 0.44 * FTA
+
+Come si può notare, la formula è la medesima dei possessi, al netto dei rimbalzi in attacco. Il fattore 0,44 stima il numero di viaggi in lunetta (tecnici e and-one esclusi). Nel caso si conoscesse tale valore, si può utilizzare quello, sicuramente più preciso. La Shooting Chances è equivalente alla somma dei possessi individuali di tutti i giocatori. 
+
+PACE
+PACE
+Learn a Stat: Possessi e Pace
+
+Termine inglese: Pace; Pace Factor
+Traduzione italiana: Ritmo di gioco
+Il Pace è la statistica che permette di confrontare il numero di possessi sui 40 (o 48) minuti di gioco e capire la velocità di gioco media di una squadra. La necessità di confrontare il Pace e non i Possessi nasce dal fatto che, in caso di supplementari, i Possessi si confronterebbero su un arco temporale differente, portando quindi ad errori di valutazione. Il Pace permette quindi di confrontare il ritmo tenendo conto di questa particolare situazione.
+
+ 
+
+SoS
+STRENGTH OF SCHEDULE
+Learn a Stat: Strength of schedule
+
+Termine inglese: Strength of schedule
+Traduzione italiana: Difficoltà del calendario
+La Strength of Schedule è una statistica che in ambito europeo è raramente utilizzata. Questo perché nei nostri campionati si giocano calendari in cui ogni squadra gioca contro le altre lo stesso numero di volte e tutte affrontano tutti, senza distinzioni. La Strength of Schedule è infatti un valore che mostra la difficoltà del calendario fino a quel momento giocato (non è quindi una statistica predittiva) quando i vari calendari mostrano differenti numeri di partite e differenti avversari, come accade per esempio in NBA. In questo modo tramite il valore di SoS è possibile capire quali squadre abbiamo affrontato un calendario più o meno pesante, in modo da valutare le varie statistiche tenendo conto della più o meno alta difficoltà di calendario. 
+
+TeORTG; TeOFF RTG; OFF RTG
+OFFENSIVE RATING DI SQUADRA
+Learn a Stat: Offensive, Defensive e Net Rating di squadra
+
+Termine inglese: Team Offensive Rating
+Traduzione italiana: Efficienza offensiva di squadra
+È il valore di efficienza offensiva di una squadra. Tale statistica ci fornisce una stima dei punti realizzati da una squadra ogni 100 possessi. Non fornisce un valore assoluto: bisogna sempre confrontare il valore della singola squadra con il valore medio della lega (vale a dire la media di tutti gli Off Rtg delle squadre del campionato). Questo perché una squadra con valore 115 sarà fenomenale se la media della Lega è 100, ma nella norma se la media è 110.
+
+TeDRTG; TeDEF RTG; DEF RTG
+DEFENSIVE RATING DI SQUADRA
+Learn a Stat: Offensive, Defensive e Net Rating di squadra
+
+Termine inglese: Team Defensive Rating
+Traduzione italiana: Efficienza difensiva di squadra
+È il valore di efficienza difensiva di una squadra. Tale statistica ci fornisce una stima dei punti subiti da una squadra ogni 100 possessi. Non fornisce un valore assoluto: bisogna sempre confrontare il valore della singola squadra con il valore medio della lega. Il valore medio della lega sarà identico al valore medio della lega dell’Offensive Rating di squadra.
+
+TeNRTG; TeNET RTG; NET RTG
+NET RATING DI SQUADRA
+Learn a Stat: Offensive, Defensive e Net Rating di squadra
+
+Termine inglese: Team Net Rating
+Traduzione italiana: Efficienza netta di squadra
+È la differenza tra Team Offensive Rating e Team Defensive Rating, ovvero lo scarto di punti ripartito su 100 possessi.
+
+OFF PPP
+PUNTI PER POSSESSO OFFENSIVI
+Termine inglese: Offensive Point per possession
+Traduzione italiana: Punti per possesso offensivi
+È il rapporto tra punti segnati e shooting chances. Indentifica l’efficienza della squadra al convertire positivamente l’opportunità di tiro.
+
+DEF PPP
+PUNTI PER POSSESSO DIFENSIVI
+Termine inglese: Defensive Point per possession
+Traduzione italiana: Punti per possesso difensivi
+È il rapporto tra punti subiti e shooting chances avversarie. Indentifica l’efficienza della squadra al negare agli avversari di segnare ogni volta che questi ultimi hanno un’opportunità di tiro.
+
+ORTG; OFF RTG; IND OFF RTG
+OFFENSIVE RATING INDIVIDUALE
+Learn a Stat: Offensive Rating individuale
+
+Termine inglese: Offensive Rating
+Traduzione italiana: Efficienza offensiva individuale
+L’Offensive Rating individuale è la quantità di punti prodotta da un giocatore su una base di 100 possessi utilizzati. Il calcolo per la valutazione offensiva dei giocatori richiede l’utilizzo di diverse formule che potete consultare nel post dedicato: brevemente, si tiene conto dei canestri dal campo realizzati e tentati, dei tiri liberi realizzati e tentati, degli assist distribuiti, delle palle perse e dei rimbalzi offensivi catturati, con pesi differenti a seconda del contributo e delle prestazioni di squadra. Da questi contributi si ricavano sia i punti generati che i possessi utilizzati per ottenere appunto l’efficienza offensiva. Come per le valutazioni di squadra è buona cosa confrontare il valore del singolo giocatore con la media della Lega e non soffermarsi al valore assoluto. In generale, maggiore è il valore, migliore sarà il contributo offensivo del giocatore.
+
+DRTG; DEF RTG; IND DEF RTG
+DEFENSIVE RATING INDIVIDUALE
+Learn a Stat: Defensive Rating Individuale
+
+Termine inglese: Defensive Rating
+Traduzione italiana: Efficienza difensiva individuale
+Il Defensive Rating definisce il numero di punti concessi dal giocatore alla squadra avversaria su una base di 100 possessi. Tale statistica è composta da due fattori. Il primo tiene conto del contributo del giocatore in termini di rimbalzi difensivi, palle rubate, stoppate effettuate e falli commessi. Il secondo termine è più ostico da calcolare perché composto da una serie di dati che non si trovano dei normali box-score. Questi dati sono:
+
+Le palle perse dell’avversario forzate dal difensore (senza che però rubi la palla);
+I tiri sbagliati dall’avversario perché ottimamente infastidito dal difensore (ma non stoppati);
+I tiri liberi sbagliati dall’avversario dopo essere stato mandato in lunetta dal difensore;
+I canestri realizzati (da 1, 2 o 3 punti) dall’avversario concessi dal difensore;
+Dato che questi dati raramente risultano disponibili si rimedia con la seguente approssimazione ideata da Oliver: si ipotizza che i cinque difensori in campo siano equamente bravi a forzare palle perse e ostacolare tiri e si suddividono quindi i tiri sbagliati e le palle perse degli avversari in base ai minuti in campo dei singoli difensori. Tale distribuzione è abbastanza approssimativa, ma risulta necessaria per via dei pochi dati disponibili. Se, per esempio, una squadra mette in campo tre ottimi difensori e due telepass, questi due otterranno benefici statistici per il loro valore di Def Rtg, pur essendo pessimi difensori.
+In secondo luogo, tale valore è influenzato anche dal Defensive Rating di squadra: questo porta ad avere valori individuali medio-bassi anche a buoni difensori individuali che giocano in squadre con difese mediocri. Il valore finale rimane attendibile, ma bisogna tenere in conto queste approssimazioni quando si fanno valutazioni in merito. Valgono, come ormai avrete capito, tutte le considerazioni fatte per gli altri rating: meglio confrontare i valori dei giocatori con la media della Lega.
+
+NRTG; NET RTG; IND NET RTG
+NET RATING INDIVIDUALE
+Termine inglese: Net Rating
+Traduzione italiana: Efficienza individuale
+La differenza tra Offensive Rating individuale e Defensive Rating individuale: in altri termini è il contributo effettivo di un giocatore quando è in campo. Se il valore è maggiore di zero, la presenza in campo sarà positiva, altrimenti sarà negativa (concede più punti di quanti ne realizza). Seppur assomigli come definizione al Plus – Minus fornisce informazioni differenti.
+
+Usg%
+USAGE PERCENTAGE
+Learn a Stat: Percentuali di tiro e di possessi
+
+Termine inglese: Usage Percentage
+Traduzione italiana: Percentuale di utilizzo
+È la stima percentuale dei possessi utilizzati dal singolo giocatore rispetto a quelli di squadra. Maggiore è il valore, maggiore è il numero di possessi conclusi dal giocatore.
+
+2P 100Poss
+TIRI TENTATI DA 2 PUNTI OGNI 100 POSSESSI
+Termine inglese: Two Point Attempted per 100 Possessions
+Ripartizione dei tiri tentati dentro l’arco su una base di 100 possessi offensivi. Un possesso offensivo è un’azione conclusa con un tiro da 2 punti, da 3 punti, tiro libero o palla persa. Dato molto utile per confrontare su una base univoca il numero di conclusioni da 2 punti di squadre o giocatori e per comprendere la distribuzione di possessi.
+
+3P 100Poss
+TIRI TENTATI DA 3 PUNTI OGNI 100 POSSESSI
+Termine inglese: Three Point Attempted per 100 Possessions
+Ripartizione dei tiri tentati oltre l’arco su una base di 100 possessi offensivi. Un possesso offensivo è un’azione conclusa con un tiro da 2 punti, da 3 punti, tiro libero o palla persa. Dato molto utile per confrontare su una base univoca il numero di conclusioni da 3 punti di squadre o giocatori e per comprendere la distribuzione di possessi.
+
+FT 100Poss
+TIRI LIBERI TENTATI OGNI 100 POSSESSI
+Termine inglese: Free Throw Attempted per 100 Possessions
+Ripartizione dei tiri dalla lunetta tentati su una base di 100 possessi offensivi. Un possesso offensivo è un’azione conclusa con un tiro da 2 punti, da 3 punti, tiro libero o palla persa. Dato molto utile per confrontare su una base univoca il numero di conclusioni da tiro libero di squadre o giocatori e per comprendere la distribuzione di possessi.
+
+SHOOTING FREQ (RIM, PAINT, MID, C3, L3)
+FREQUENZA DI TIRO
+Termine inglese: Shooting frequency
+Per ognuna delle zone del campo (rim: all’interno del semicerchio, paint: pitturato, senza considerare il tiri nel semicerchio, mid: tutta la zona compresa tra la linea dei 3 punti e l’area, C3: triple dall’angolo, L3: triple da oltre l’arco) è possibile calcolare la frequenza di tiro, ovvero la percentuale di tiri tentati da quella zona. A denominatore può essere usato sia il totale di tiri tentati (FGA) o le opportunità di tiro (Shooting Chances). Nel caso si utilizzino queste ultime, il 100% si otterrà sommando alle varie frequenze di tiro anche la frequenza dei viaggi in lunetta, FT Ratio, (no tecnici e and-one) e la percentuale di palle perse (TO%). Attualmente le statistiche che trovate sul sito sono calcolate in questa seconda maniera. Per calcolarle, basta dividire il numero di tentativi di tiri da quella zona per FGA o Shooting Chances.
+
+PPS (RIM, PAINT, MID, C3, L3)
+PUNTI PER TIRO
+Termine inglese: Pojnt per Shot
+Per ognuna delle zone del campo (rim: all’interno del semicerchio, paint: pitturato, senza considerare il tiri nel semicerchio, mid: tutta la zona compresa tra la linea dei 3 punti e l’area, C3: triple dall’angolo, L3: triple da oltre l’arco) si possono calcolare i punti per tiro. Il calcolo è semplicemente il rapporto tra punti fatti in quella zona e tiri presi da quella zona.  
+
+FT Ratio
+FT Ratio
+Termine inglese: FT Ratio
+È il rapporto tra viaggi in lunetta e Shooting Chances. Identifica la frequenza di viaggi in lunetta, a esclusione di tecnici e and-one. 
+
+ 
+
+OR%; OREB%
+OFFENSIVE REBOUND PERCENTAGE
+Learn a Stat: Rebound Percentage
+
+Traduzione italiana: Percentuale di rimbalzi offensivi
+La percentuale dei rimbalzi offensivi catturati dal giocatore/squadra nel corso della partita. Si tiene dunque conto anche dei rimbalzi difensivi avversari. Ci sono versioni più specifiche di questa statistica: OR% (2P), OR% (3P), OR% (FT). Il calcolo e il significato è il medesimo, ma si prendono in considerazione solo i tiri sbagliati da 2 punti, da 3 punti o da tiro libero. 
+
+DR%; DREB%
+DEFENSIVE REBOUND PERCENTAGE
+Learn a Stat: Rebound Percentage
+
+Traduzione italiana: Percentuale di rimbalzi difensivi
+La percentuale dei rimbalzi difensivi catturati dal giocatore/squadra nel corso della partita. Si tiene dunque conto anche dei rimbalzi offensivi avversari. Ci sono versioni più specifiche di questa statistica: DR% (2P), DR% (3P), DR% (FT). Il calcolo e il significato è il medesimo, ma si prendono in considerazione solo i tiri sbagliati da 2 punti, da 3 punti o da tiro libero. 
+
+TR%; TREB%
+TOTAL REBOUND PERCENTAGE
+Learn a Stat: Rebound Percentage
+
+Traduzione italiana: Percentuale di rimbalzi totali
+La percentuale dei rimbalzi totali catturati dal giocatore/squadra nel corso della partita. Si tiene dunque conto anche dei rimbalzi totali avversari.
+
+AST%
+ASSIST PERCENTAGE
+Learn a Stat: Assist e palle perse
+
+Traduzione italiana: Percentuale di assist
+La percentuale di canestri “assistiti” dal giocatore/squadra. Si ripartiscono quindi gli assist sui canestri segnati per comprendere quanti tiri sono segnati a seguito di un passaggio smarcante. Ci sono versioni più specifiche di questa statistica: AST% (2P), AST% (3P), AST% (FT). Il calcolo e il significato è il medesimo, ma si prendono in considerazione solo i tiri da 2 punti, da 3 punti o da tiro libero. 
+
+AST / TO; AST TO RATIO
+ASSIST / PALLE PERSE
+Termine inglese: Assist To Turnover Ratio
+Il rapporto tra assist e palle perse. Mostra il numero di assist effettuati ad ogni palla persa. Più alto è il numero, più assist il giocatore/squadra effettua tra una palla persa ed un’altra.
+
+AST RATIO
+ASSIST RATIO
+Learn a Stat: Assist e palle perse
+
+Traduzione italiana: Indice degli assist
+Il numero di assist serviti dal giocatore/squadra ogni 100 possessi. Tendenzialmente più alto è valore, più assist il giocatore/squadra distribuisce a sfavore di meno tiri tentati.
+
+TO RATIO; TO%; TOV RATIO; TOV%
+TURNOVER RATIO
+Learn a Stat: Assist e palle perse
+
+Traduzione italiana: Indice delle palle perse
+La versione di squadra è il rapporto tra perse e Shooting Chances, mentre quella del giocatore è il rapporto tra perse e possessi individuali.
+
+ST%
+STEAL PERCENTAGE
+Learn a Stat: Rubate e stoppate
+
+Traduzione italiana: Percentuale di palle rubate
+La percentuale di palle rubate dal giocatore/squadra rispetto ai possessi totali avversari.
+
+BLK%
+BLOCK PERCENTAGE
+Learn a Stat: Rubate e stoppate
+
+Traduzione italiana: Percentuale di stoppate date
+La percentuale di tiri da 2 punti stoppati dal giocatore/squadra.
+
+PSF Freq
+FREQUENZA DI FALLI SU TIRO COMMESSI
+Termine inglese: Personal Shooting Fouls Frequency
+Il rapporto tra il numero di falli che hanno portato in lunetta un avversario e il numero di falli commessi totali.
+
+DSF Freq
+FREQUENZA DI FALLI SU TIRO SUBITI
+Termine inglese: Drawn Shooting Fouls Frequency
+Il rapporto tra il numero di falli subiti che hanno portato in lunetta e il numero di falli totali subiti.
+
+PF 100 Poss
+FALLI COMMESSI OGNI 100 POSSESSI
+Termine inglese: Personal Fouls per 100 Possessions
+I falli commessi dal giocatore/squadre ogni 100 possessi di gioco (ovvero i possessi di squadra). Con questa statistica è possibile confrontare i falli commessi una base univoca.
+
+DF 100 Poss
+FALLI SUBITI OGNI 100 POSSESSI
+Termine inglese: Drawn Fouls per 100 Possessions
+I falli subiti dal giocatore/squadre ogni 100 possessi di gioco (ovvero i possessi di squadra). Con questa statistica è possibile confrontare i falli subiti una base univoca.
+
+eFG%
+EFFECTIVE FIELD GOAL PERCENTAGE
+Learn a Stat: Percentuali di tiro e di possessi
+
+Traduzione italiana: Percentuale effettiva dei tiri dal campo
+La percentuale di realizzazione di un giocatore/squadra che si calcola considerando il tiro da 3 realizzato con un peso pari a 1,5 volte di un canestro da 2 punti. In questo modo si possono confrontare le percentuali dal campo di giocatori d’area e tiratori da 3, senza che i secondi risentano troppo dalla maggiore difficoltà di tiro.
+
+TS%
+TRUE SHOOTING PERCENTAGE
+Learn a Stat: Percentuali di tiro e di possessi
+
+Traduzione italiana: Percentuale reale
+La percentuale al tiro complessiva che tiene conto di tutti i tiri tentati (dal campo e liberi). In altri termini è la percentuale con cui un giocatore/squadra termina positivamente i suoi possessi.
+
+KILLS
+KILLS
+Le Kills sono un modo alternativo di valutare la fase difensiva di una squadra: una squadra ottiene una kill dopo aver fermato con successo l’attacco avversario per tre volte consecutivamente. Fermare con successo significa che al termine del possesso avversario non è stato segnato un singolo punto (quindi il possesso è terminato con una persa o con un rimbalzo difensivo). 
+
+PER
+PLAYER EFFICIENCY RATING
+Learn a Stat: Player Efficiency Rating (PER)
+
+Traduzione italiana: Efficienza individuale
+Il PER è una versione più sofisticata della classica Valutazione. Tiene infatti conto di quasi tutti i parametri della Valutazione, ma, attraverso una serie di fattori e l’introduzione del Pace di squadra e di Lega, crea una base unica per il confronto delle prestazioni di tutti i giocatori. Il valore di riferimento è pari a 15, che indica il giocatore “medio”. Posto tale valore, è possibile stilare una scala di valutazione univoca (il PER è quindi un valore assoluto):
+
+Più che MVP: 43 o più
+MVP: 33 – 42,9
+Forte candidato al premio MVP: 30 – 32,9
+Candidato di seconda fascia al premio MVP: 25 – 29,9
+Giocatore da All-Star: 22,5 – 24,9
+Possibile giocatore da All-Star: 20 – 22,4
+Seconda opzione offensiva: 18 – 19,9
+Terza opzione offensiva: 16,5 – 17,9
+Giocatore nella media: 15 – 16,4
+Giocatore dalla panchina: 13 – 14,9
+Panchinaro fisso: 11 – 12,9
+Sventolatore di asciugamani: 9 – 10,9
+Ma come è possibile che sia in squadra?: 0 – 8,9
+
+WS
+WIN SHARE
+Learn a Stat: Win Share
+
+Traduzione italiana: Stima vittorie aggiunte
+Il Win Share è la statistica che permette di capire chi tra i giocatori presenti nel roster contribuisca maggiormente alle vittorie. Il principio è il seguente: si considera che ogni vittoria di una squadra sia pari a 1 Win Share. I singoli giocatori avranno contribuito in maniera differente alle vittorie: tale statistica ci fornisce appunto una stima del contributo alla vittoria in termini numerici. La somma dei Win Share di tutti giocatore si avvicina bene o male al numero di W ottenute nel corso della stagione. Il Win Share dei singoli giocatori si calcola sommando due contributi: il Win Share Offensivo e il Win Share Difensivo.
+
+OWS
+OFFENSIVE WIN SHARE
+Learn a Stat: Win Share
+
+Traduzione italiana: Stima vittorie aggiunte in attacco
+Questo valore dipende principalmente dalla Points Production del giocatore e dai suoi possessi utilizzati. Combinando questi valori con le medie di lega si ottiene l’Offensive Win Share, che quindi ci fornisce in termini numerici il contributo offensivo alla vittoria di un giocatore.
+
+DWS
+DEFENSIVE WIN SHARE
+Learn a Stat: Win Share
+
+Traduzione italiana: Stima vittorie aggiunte in difesa
+Per questa statistica si tiene conto del Defensive Rating del giocatore e i suoi minuti giocati. Ci fornisce in termini numerici il contributo difensivo alla vittoria di un giocatore.
+
+WS per 40 Min
+WIN SHARE PER 40 MINUTES
+Learn a Stat: Win Share
+
+Traduzione italiana: Stima vittorie aggiunte su 40 minuti
+Dato che il Win Share è una statistica che si basa sui totali di stagione (quindi fornisce l’ipotetico numero totale di partite vinte da un giocatore), si è pensato di adattare i valori sui 40 (o 48) minuti per avere un confronto uniformato su una stessa base, in questo caso il minuto. Per ottenere il Win Share sui 40 minuti si deve quindi dividere il Win Share per le partite giocate dal giocatore, quindi moltiplicare per il rapporto 40 minuti / minuti giocati in media; facendo ciò si possono confrontare i vari Win Share, senza bisogno di tenere in considerazione partite e minuti giocati.
+
+BPM
+BOX PLUS MINUS
+Learn a Stat: Box Plus Minus e VORP
+
+Traduzione italiana: Plus Minus effettivo
+Evoluzione del classico Plus Minus. Se il +/- è la somma dei punti realizzati e subiti dalla squadra mentre il giocatore in analisi è in campo, il BMP normalizza il contributo del singolo giocatore su 100 possessi, in modo da avere una base comune a tutta la Lega. In questo modo si può effettuare un confronto diretto del contributo di tutti i giocatori. Il dato del BPM ci fornisce i punti garantiti (in più o in meno) di un giocatore rispetto al livello medio della Lega, tarato a 0: ovviamente maggiore è il valore, migliore sarà il contributo del giocatore. In linea di tendenza un valore di +5 è molto buono, -5 decisamente pessimo; -2 è il valore del giocatore di riferimento necessario per il calcolo del VORP.
+
+OBMP; OffBMP
+OFFENSIVE BOX PLUS MINUS
+Learn a Stat: Box Plus Minus e VORP
+
+Traduzione italiana: Plus Minus offensivo effettivo
+È una statistica che ha il medesimo significato della precedente, ma in questo caso i contributi considerati nel calcolo sono fattorizzati con coefficienti che tengono conto della sola fase offensiva del gioco.
+
+DBMP; DefBMP
+DEFENSIVE BOX PLUS MINUS
+Learn a Stat: Box Plus Minus e VORP
+
+Traduzione italiana: Plus Minus difensivo effettivo
+È una statistica che ha il medesimo significato della precedente e la si ricava sottraendo il OffBMP dal BMP. Fornisce quindi il contributo di un giocatore tenendo conto della sola parte difensiva.
+
+VORP
+VALUE OVER REPLACEMENT PLAYER
+Learn a Stat: Box Plus Minus e VORP
+
+Traduzione italiana: Indice di valutazione rispetto ad un giocatore di riferimento
+Se il BPM ci fornisce il contributo generato da un giocatore, il VORP ci permette di capire quale sia il contributo del giocatore in analisi paragonandolo al contributo di un giocatore di riferimento (replacement player). Il VORP tiene quindi conto dei minuti e delle partite giocate e considera come BPM di riferimento per il “Replacement Player” il valore -2. Il VORP è quindi la statistica più attendibile per comprendere quali siano i giocatori che contribuiscono in maniera sostanziale alle vittorie della propria squadra.
