@@ -1,4 +1,4 @@
-# 🏀 EuroLeague Player Scouting – ML Pipeline
+# 🏀 EuroLeague Players Scouting – ML Pipeline
 
 **Authors**: Alessandro Frullo, Giulia Pareschi  
 **Goal**: Identify and predict emerging basketball talents in EuroLeague using a modular ML framework.
