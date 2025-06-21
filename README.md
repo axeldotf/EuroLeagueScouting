@@ -36,7 +36,7 @@ We thank [Hackastat](https://www.hackastat.eu) for providing data and [EuroLeagu
 <div align="center">
   <img src="img/player_clusters_pca.png" width="800px">
   <br>
-  <a href="img/player_clusters_pca_interactive.html">🔗 Interactive Version</a>
+  <a href="https://drive.google.com/file/d/1ykDyCZfoCA7nII0ypF1qLdHKqixb_eib/view?usp=drive_link" target="_blank">📥 Download Interactive HTML (via Google Drive)</a>
 </div>
 
 ### **Phase 2 – Career-Based Pseudo-Labeling**
@@ -71,11 +71,11 @@ We thank [Hackastat](https://www.hackastat.eu) for providing data and [EuroLeagu
 - Apply trained model to new season data
 - Predict breakout probability for 2024–2025
 
-📷 **Emergence Forecast (2024)**  
+📷 **Emergence Forecast using RF**  
 <div align="center">
   <img src="img/emergent_predictions.png" width="800px">
   <br>
-  <a href="img/emergent_predictions_interactive.html">🔗 Interactive Version</a>
+  <a href="https://drive.google.com/file/d/1ft4-Mj4C-yfWmJc5Njw5aYunlW7J8fQA/view?usp=drive_link" target="_blank">📥 Download Interactive HTML (via Google Drive)</a>
 </div>
 
 ---
