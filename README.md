@@ -1,6 +1,7 @@
 # 🏀 EuroLeague Players Scouting 
 ![Python 3.11.9](https://img.shields.io/badge/python-3.11.9-blue.svg)
 [![Requirements](https://img.shields.io/badge/requirements.txt-%F0%9F%93%9C-blue)](https://github.com/axeldotf/EuroLeagueScouting/blob/main/root/requirements.txt)
+[![Open Notebook](https://img.shields.io/badge/Open%20Notebook-%F0%9F%93%9D-blue)](https://github.com/axeldotf/EuroLeagueScouting/blob/main/ProjectML_Frullo_Pareschi.ipynb)
 
 **Authors**: Alessandro Frullo, Giulia Pareschi  
 **Goal**: Identify and predict emerging basketball talents in EuroLeague using a modular ML framework.
@@ -18,6 +19,9 @@ into actionable scouting insights. It predicts future breakout players by combin
 - 📈 **Interactive Visualizations** for analysis  
 
 We thank [Hackastat](https://www.hackastat.eu) for providing data and [EuroLeague](https://www.euroleaguebasketball.net) for the context that inspired this project.
+
+> 📝 The full pipeline implementation is available in the  
+> [ProjectML_Frullo_Pareschi.ipynb notebook](https://github.com/axeldotf/EuroLeagueScouting/blob/main/ProjectML_Frullo_Pareschi.ipynb).
 
 > ⚠️ **Disclaimer**: This project was developed exclusively for educational and academic purposes.  
 > It is not intended for commercial use or professional scouting.
