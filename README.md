@@ -1,4 +1,6 @@
-# 🏀 EuroLeague Players Scouting – ML Pipeline
+# 🏀 EuroLeague Players Scouting – ML Pipeline  
+![Python 3.11.9](https://img.shields.io/badge/python-3.11.9-blue.svg)
+[![Requirements](https://img.shields.io/badge/requirements.txt-%F0%9F%93%9C-blue)](https://github.com/axeldotf/EuroLeagueScouting/blob/main/root/requirements.txt)
 
 **Authors**: Alessandro Frullo, Giulia Pareschi  
 **Goal**: Identify and predict emerging basketball talents in EuroLeague using a modular ML framework.
@@ -7,15 +9,41 @@
 
 ## 📌 Overview
 
-This project implements a **machine learning pipeline** that transforms raw player statistics into actionable scouting insights.  
-It predicts future breakout players by combining:
+This project implements a **machine learning pipeline** that transforms raw player statistics  
+into actionable scouting insights. It predicts future breakout players by combining:
 
 - 🔍 **Unsupervised Clustering** of performance profiles  
 - 🧠 **Trajectory-Aware Pseudo-Labeling** for breakout detection  
 - 🤖 **Supervised Learning** to forecast emergence  
 - 📈 **Interactive Visualizations** for analysis  
 
-We thank [Hackastat](https://www.hackastat.eu) for providing data and [EuroLeague](https://www.euroleaguebasketball.net) for the context that inspired this project.
+We thank [Hackastat](https://www.hackastat.eu) for providing data and  
+[EuroLeague](https://www.euroleaguebasketball.net) for the context that inspired this project.
+
+---
+
+## 📊 Project Snapshot
+
+| Item                 | Details                                              |
+|----------------------|------------------------------------------------------|
+| Domain               | Sports Analytics / Basketball Scouting               |
+| Techniques Used      | Clustering, Pseudo-Labeling, Supervised Learning     |
+| Data Source          | [Hackastat](https://www.hackastat.eu), [EuroLeague](https://www.euroleaguebasketball.net)   |
+| Outputs              | Emergence probabilities for EuroLeague players       |
+| Models Used          | Logistic Regression, Random Forest, XGBoost          |
+| Development Language | Python 3.11.9                                        |
+
+---
+
+## ⚙️ Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/axeldotf/EuroLeagueScouting.git
+cd EuroLeagueScouting
+pip install -r root/requirements.txt
+```
 
 ---
 
@@ -94,28 +122,3 @@ We thank [Hackastat](https://www.hackastat.eu) for providing data and [EuroLeagu
 - 📈 Grounded in historical progression
 - 🧩 Modular & adaptable to any league
 - 🔎 High interpretability for real scouting
-
----
-
-## 📂 Repository Structure
-
-.
-├── img/
-├── keys/
-├── models/
-├── output/
-├── src/
-│ ├── clean/
-│ └── raw/
-│   ├── 23 24
-│   ├── 24 25
-│   └── all time
-├── utils/
-│ ├── phase0_tools.py
-│ ├── phase1_tools.py
-│ ├── phase2_tools.py
-│ ├── phase3_tools.py
-│ ├── phase4_tools.py
-│ └── phase5_tools.py
-├── ProjectML_Frullo_Pareschi.ipynb
-└── README.md
