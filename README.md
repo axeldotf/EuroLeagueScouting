@@ -17,8 +17,7 @@ into actionable scouting insights. It predicts future breakout players by combin
 - 🤖 **Supervised Learning** to forecast emergence  
 - 📈 **Interactive Visualizations** for analysis  
 
-We thank [Hackastat](https://www.hackastat.eu) for providing data and  
-[EuroLeague](https://www.euroleaguebasketball.net) for the context that inspired this project.
+We thank [Hackastat](https://www.hackastat.eu) for providing data and [EuroLeague](https://www.euroleaguebasketball.net) for the context that inspired this project.
 
 > ⚠️ **Disclaimer**: This project was developed exclusively for educational and academic purposes.  
 > It is not intended for commercial use or professional scouting.
