@@ -1,4 +1,4 @@
-# 🏀 EuroLeague Players Scouting – ML Pipeline  
+# 🏀 EuroLeague Players Scouting 
 ![Python 3.11.9](https://img.shields.io/badge/python-3.11.9-blue.svg)
 [![Requirements](https://img.shields.io/badge/requirements.txt-%F0%9F%93%9C-blue)](https://github.com/axeldotf/EuroLeagueScouting/blob/main/root/requirements.txt)
 
